@@ -19,8 +19,7 @@ while "L" in inputstring or "E" in inputstring:
         inputstring = inputstring[:L] + inputstring[L+2:]
 
         continue
-
-
+    
     firststring = inputstring[:L]
 
     bottomstring = inputstring[E+1:]
